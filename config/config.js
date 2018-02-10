@@ -10,4 +10,4 @@ CONFIG.prompt = function(cwd, user) {
    return 'jsterm1.0 $ ';
 };
 
-CONFIG.username = '';
+CONFIG.username = 'abhishek';
