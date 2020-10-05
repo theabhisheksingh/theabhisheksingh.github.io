@@ -1,346 +1,788 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
-	<title>Abhishek Singh</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="Creative minded full stack developer">
-	<meta name="keywords" content="developer,software engineer">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Favicon -->   
-	<link href="img/favicon.png" rel="shortcut icon"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Abhishek Singh Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Abhishek Singh Resume, Agile Project Manager, DevOps Engineer" />
+    <meta name="keywords" content="Abhishek Singh, Photographer, Project Manager, Agile" />
+    <meta name="author" content="lmtheme" />
+    <link rel="shortcut icon" href="favicon.ico">
 
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.css"/>
-	<link rel="stylesheet" href="css/magnific-popup.css"/>
-	<link rel="stylesheet" href="css/animate.min.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link rel="stylesheet" href="css/transition-animations.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main-red.css" type="text/css">
 
-	<!--[if lt IE 9]>
-	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
+    <!-- This styles needs for demo -->
+    <link rel="stylesheet" href="preview/lmpixels-demo-panel.css" type="text/css">
+    <!-- /This styles needs for demo -->
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','../../../../www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-96534204-1', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
 
-</head>
-<body>
-	<!-- Page Preloder -->
-	<div id="preloder">
-		<div class="loader"></div>
-	</div>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+  </head>
 
-	
-	<!--====== Header Section Start ======-->
-	<header class="header-section">
-		<div class="logo">
-			<h1 class="logo">{@bh!}</h1><!-- Logo -->
-		</div>
-		<div class="responsive"><i class="fa fa-bars"></i></div>
-		<!-- Navigation -->
-		<ul class="menu-list">
-			<li><a href="#home">Home</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="#service">service</a></li>
-			<li><a href="#portfolio">Portfolio</a></li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
-	</header>
-	<!--====== Header Section End ======-->
+  <body>
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <div id="page" class="page">
+      <!-- Header -->
+      <header id="site_header" class="header mobile-menu-hide header-color-light">
+        <div class="my-photo tilt-effect">
+          <img src="images/Abhi.jpg" alt="image">
+        </div>
+
+        <div class="site-title-block">
+          <h1 class="site-title">Abhishek Singh</h1>
+        </div>
+
+        <!-- Navigation -->
+        <div class="site-nav">
+          <!-- Main menu -->
+          <ul id="nav" class="site-main-menu">
+            <li>
+              <a class="pt-trigger" href="#home" data-animation="21"><i class="menu-icon pe-7s-icon pe-7s-home"></i>Home</a><!-- href value = data-id without # of .pt-page. -->
+            </li>
+            <li>
+              <a class="pt-trigger" href="#about_me" data-animation="17"><i class="menu-icon pe-7s-icon pe-7s-user"></i>About me</a>
+            </li>
+            <li>
+              <a class="pt-trigger" href="#resume" data-animation="18"><i class="menu-icon pe-7s-icon pe-7s-id"></i>Resume</a>
+            </li>
+            <li>
+              <a class="pt-trigger" href="#portfolio" data-animation="19"><i class="menu-icon pe-7s-icon pe-7s-portfolio"></i>Blog</a>
+            </li>
+            <li>
+              <a class="pt-trigger" href="#contact" data-animation="20"><i class="menu-icon pe-7s-icon pe-7s-mail"></i>Contact</a>
+            </li>
+          </ul>
+          <!-- /Main menu -->
+        </div>
+        <!-- Navigation -->
+      </header>
+      <!-- /Header -->
+
+      <!-- Mobile Header -->
+      <div class="mobile-header mobile-visible">
+        <div class="mobile-logo-container">
+          <div class="mobile-site-title">Abhishek Singh</div>
+        </div>
+
+        <a class="menu-toggle mobile-visible">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!-- /Mobile Header -->
+
+      <!-- Main Content -->
+      <div id="main" class="site-main">
+        <!-- Page changer wrapper -->
+        <div class="pt-wrapper" style="background-image: url(images/bg.png);">
+          <!-- Subpages -->
+          <div class="subpages">
+
+            <!-- Home Subpage -->
+            <section class="pt-page pt-page-1 section-without-bg section-paddings-0 table" data-id="home">
+              <div class="section-inner">
+                <div class="home-page-block">
+                  <h2>Abhishek Singh</h2>
+                  <div class="owl-carousel text-rotation">                                    
+                    <div class="item">
+                      <p class="home-page-description">Agile Project Manager</p>
+                    </div>
+                    <div class="item">
+                      <p class="home-page-description">DevOps Engineer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End of Home Subpage -->
+
+            <!-- About Me Subpage -->
+            <section class="pt-page pt-page-2" data-id="about_me">
+              <div class="border-block-top-110"></div>
+              <div class="section-inner">
+                <div class="section-title-block">
+                  <div class="section-title-wrapper clearfix">
+                    <h2 class="section-title">About Me</h2>
+                    <h5 class="section-description">Technical Project Manager, Photographer, Writer</h5>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-6 col-md-6 col-lg-4 subpage-block">
+                    <div class="my-photo-block tilt-effect">
+                      <img src="images/photo.png" alt="">
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-6 col-lg-4">
+                    <h3>Hi There! This is Abhishek Here, Technical Project Manager & Agile DevOps Engineer @ Zolute Consulting</h3>
+                    <p>Overall 5+ years of working in the IT industry with the experience leading in Agile Project management, Scrum, Client Handling, Requirement Gathering, Design Solutions, wireframing Closely working with Data Science projects Development and operations.
+                      --Demonstrated ability to handle, manage & prioritize large-scale & multiple projects to meet deadlines under stressful situations.
+                      --Coordinate with clients on daily basis for Standup calls, backlog management, sprint planning, and work on the new bugs the QA team has raised. Involved in providing Impact Analysis.
+                      --Track details in JIRA for the sprint. Discuss the next steps with the Product Owner and prioritize the backlog.
+                      --Specialties include Planning, designing, and analyzing the requirement, Expert in the understanding of any type of complex requirement, Develop Use case study, Deployment, Polite Attitude..</p>
+                    <p>--Managing Amazon Web Services (AWS) and Google cloud platform (GCP) infrastructure with automation.
+                      --Proficient in GCP services like cloud storage, compute engine, stack driver tools, cloud load balancing, cloud deployment manager, cloud DNS, container engine, datastore
+                      --Proficient in AWS services like VPC, EC2, S3, ELB, AutoScalingGroups(ASG), EBS, RDS, IAM, CloudFormation, Route 53, CloudWatch, CloudFront, CloudTrail.
+                      --Good understanding of Autoscaling, Deployment automation, and Application management, version control Git
+                      --Strong knowledge of the Operating System (Windows or Linux)[ Ubuntu is one of my favorite OS] </p>
+                  </div>
+
+                  <div class="col-sm-6 col-md-6 col-lg-4 subpage-block">
+                    <ul class="info-list">
+                      <li><span class="title">Age</span><span class="value">25</span></li>
+                      <li><span class="title">Residence</span><span class="value">  INDIA</span></li>
+                      <li><span class="title">Address</span><span class="value">Jabalpur M.P.</span></li>
+                      <li><span class="title">e-mail</span><span class="value"><a href="theabhisheksingh@outlook.com"><span class="__cf_email__" data-cfemail="#">[email&#160;protected]</span></a></span></li>
+                      <li><span class="title">Phone</span><span class="value">+91 9425 79 5216</span></li>
+                      <li><span class="title">Skype</span><span class="value">abhishek.singh1629</span></li>
+                      <li><span class="title">Freelance</span><span class="value available">Available</span></li>
+                    </ul>
+
+                    <ul class="social-links">
+                      <li><a class="tip social-button" href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li> <!-- Full list of social icons: http://fontawesome.io/icons/#brand -->
+                      <li><a class="tip social-button" href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                      <li><a class="tip social-button" href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+                      <li><a class="tip social-button" href="#" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+                      <li><a class="tip social-button" href="#" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                      <!--<li><a class="tip social-button" href="#" title="last.fm"><i class="fa fa-lastfm"></i></a></li>-->
+                      <!--<li><a class="tip social-button" href="#" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>-->
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- Services block -->
+                <div class="block-title">
+                  <h3>Skills</h3>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-6 col-md-3 subpage-block">
+                    <div class="service-block"> 
+                      <div class="service-info">
+                        <img src="images/service/web_design_icon.png" alt="Responsive Design">
+                        <h4>Project management</h4>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-3 subpage-block">
+                    <div class="service-block"> 
+                      <div class="service-info">
+                        <img src="images/service/devops.png" alt="DevOps">
+                        <h4>Devops</h4>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-3 subpage-block">
+                    <div class="service-block"> 
+                      <div class="service-info">
+                        <img src="images/service/creativity_icon.png" alt="Requirement">
+                        <h4>Requirement Gathering</h4>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-3 subpage-block">
+                    <div class="service-block"> 
+                      <div class="service-info">
+                        <img src="images/service/deployment.png" alt="Deployment">
+                        <h4>Deployment</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Services block -->
+
+                <div class="row">
+                  <div class="col-sm-12 col-md-12 subpage-block">
+                    <div class="block-title">
+                      <h3>Recommendations</h3>
+                    </div>
+                    <div class="testimonials owl-carousel">
+                      <!-- Testimonial 1 -->
+                      <div class="testimonial-item">
+                        <!-- Testimonial Content -->
+                        <div class="testimonial-content">
+                          <div class="testimonial-text">
+                            <p>"Abhishek is wonderful to work with. Extremely knowledgeable in his profession, is mindful of deadlines and is an innovative thinker. I highly recommend him for any of your high-priority projects!"</p>
+                          </div>
+                        </div>            
+                        <!-- /Testimonial Content -->  
+                        <!-- Testimonial Author -->
+                        <div class="testimonial-credits">
+                          <!-- Picture -->
+                          <div class="testimonial-picture">
+                            <img src="images/testimonials/0.jpg" alt="">
+                          </div>              
+                          <!-- /Picture -->
+                          <!-- Testimonial author information -->
+                          <div class="testimonial-author-info">
+                            <p class="testimonial-author">Jesse Ashman</p>
+                            <p class="testimonial-firm">Executive Recruiter / Healthcare Professional</p>
+                          </div>
+                        </div>
+                        <!-- /Testimonial author information -->               
+                      </div>
+                      <!-- End of Testimonial 1 -->
+
+                     
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Fun facts block -->
+                <div class="block-title">
+                  <h3>Fun Facts</h3>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-6 col-md-3 subpage-block">
+                    <div class="fun-fact-block gray-bg tilt-effect">
+                      <i class="pe-7s-icon pe-7s-smile"></i>
+                      <h4>Delievered projects</h4>
+                      <span class="fun-value">25+</span>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-3 subpage-block tilt-effect">
+                    <div class="fun-fact-block">
+                      <i class="pe-7s-icon pe-7s-alarm"></i>
+                      <h4>Working Hours</h4>
+                      <span class="fun-value">14,600+</span>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-3 subpage-block tilt-effect">
+                    <div class="fun-fact-block gray-bg">
+                      <i class="pe-7s-icon pe-7s-medal"></i>
+                      <h4>Photography winner</h4>
+                      <span class="fun-value">1</span>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-3 subpage-block tilt-effect">
+                    <div class="fun-fact-block">
+                      <i class="pe-7s-icon pe-7s-coffee"></i>
+                      <h4>Coffee Consumed</h4>
+                      <span class="fun-value">20,000</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Fun fucts block -->
+              </div>
+            </section>
+            <!-- End of About Me Subpage -->
+
+            <!-- Resume Subpage -->
+            <section class="pt-page pt-page-3" data-id="resume">
+              <div class="border-block-top-110"></div>
+              <div class="section-inner">
+                <div class="section-title-block">
+                  <div class="section-title-wrapper">
+                    <h2 class="section-title">Resume</h2>
+                    <h5 class="section-description">5+ Years of Experience</h5>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-6 col-md-4 subpage-block">
+                    <div class="block-title">
+                      <h3>Education</h3>
+                    </div>
+                    <div class="timeline">
+                      <!-- Single event -->
+                      <div class="timeline-event te-primary">
+                        <h5 class="event-date">2019</h5>
+                        <h4 class="event-name">Master of Computer Application</h4>
+                        <span class="event-description">Rajiv Gandhi Proudyogiki Vishwavidyalaya</span>
+                        <p>Persued MCA with 8.04 CGPA</p>
+                      </div>
+                      <!-- Single event -->
+                      <div class="timeline-event te-primary">
+                        <h5 class="event-date">2016</h5>
+                        <h4 class="event-name">Bachelor of Science (Mathematics)</h4>
+                        <span class="event-description">CSJM University</span>
+                      </div>
+                      <!-- Single event -->
+                      <div class="timeline-event te-primary">
+                        <h5 class="event-date">2012</h5>
+                        <h4 class="event-name">Higher Secondary School</h4>
+                        <span class="event-description">John Nave Senior Secondary School</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-4 subpage-block">
+                    <div class="block-title">
+                      <h3>Experience</h3>
+                    </div>
+                    <div class="timeline">
+                      <!-- Single event -->
+                      <div class="timeline-event te-primary">
+                        <h5 class="event-date">Dec 2019 - Current</h5>
+                        <h4 class="event-name">Technical Project Manager</h4>
+                        <span class="event-description">Zolute Consulting</span>
+                        <p>Agile Project Management | Devops | IT Business Analyst</p>
+                      </div>
+                      <!-- Single event -->
+                      <div class="timeline-event te-primary">
+                        <h5 class="event-date">Mar 2018 - Dec 2019</h5>
+                        <h4 class="event-name">Co-Founder | Devops Manager</h4>
+                        <span class="event-description">Drafic Venture</span>
+                        <p>Project Manager | Stakeholder Meetings | Deployment</p>
+                      </div>
+                      <!-- Single event -->
+                      <div class="timeline-event te-primary">
+                        <h5 class="event-date">Mar 2015 - Dec 2018</h5>
+                        <h4 class="event-name">Founder | Developer</h4>
+                        <span class="event-description">Codeyo Development House</span>
+                        <p>This was my first Startup and obviously my first IT Experience</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-4 subpage-block">
+                    <div class="block-title">
+                      <h3>Project Management Skills</h3>
+                    </div>
+                    <div class="skills-info">
+                      <h4>Agile Methodology</h4>                               
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-1"></div>
+                      </div>
+
+                      <h4>Scrum</h4>
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-2"></div>
+                      </div>
+
+                      <h4>KanBan</h4>
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-3"></div>
+                      </div> 
+
+                      <h4>JIRA</h4>
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-3"></div>
+                      </div> 
+
+                      <h4>Requirement Gathering</h4>
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-3"></div>
+                      </div> 
+
+                      <h4>Leadership</h4>
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-3"></div>
+                      </div> 
+
+                      <h4>Time Management</h4>
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-3"></div>
+                      </div> 
+                    </div>
+
+                    <div class="block-title">
+                      <h3>Deployment Skills</h3>
+                    </div>
+                    <div class="skills-info">
+                      <h4>AWS</h4>                               
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-4"></div>
+                      </div>
+
+                      <h4>Google Cloud</h4>
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-5"></div>
+                      </div>
+
+                      <h4>Azure</h4>
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-6"></div>
+                      </div>
+
+                      <h4>Git</h4>
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-7"></div>
+                      </div>
+
+                      <h4>Docker</h4>
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-8"></div>
+                      </div>
+                    </div>
+                    <div class="block-title">
+                      <h3>Tools</h3>
+                    </div>
+                    <div class="skills-info">
+                      <h4>Trello</h4>                               
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-4"></div>
+                      </div>
+
+                      <h4>Slack</h4>
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-5"></div>
+                      </div>
+
+                      <h4>OFFICE 365</h4>
+                      <div class="skill-container">
+                        <div class="skill-percentage skill-6"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-md-12">
+                    <div class="download-cv-block">
+                      <a class="button" target="_blank" href="#">Download CV</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End Resume Subpage -->
 
 
-	<!-- ==== Intro Section Start ==== -->
-	<section class="intro-section fix" id="home">
-		<div class="intro-bg bg-cms"></div>
-		<div class="intro-inner">
-			<div class="intro-content">
-				<div id="round"></div>
-				<div class="profile-img">
-					<img src="img/Abhi.JPG" alt="">
-				</div>
-				<h2><span class="element"></span></h2>
-			</div>
-		</div>
-	</section>
-	<!-- ==== Intro Section End ==== -->
+            <!-- Blogs Subpage -->
+            <section class="pt-page pt-page-4" data-id="portfolio">
+              <div class="border-block-top-110"></div>
+              <div class="section-inner">
+                <div class="section-title-block">
+                  <div class="section-title-wrapper">
+                    <h2 class="section-title">Blogs</h2>
+                    <h5 class="section-description">My Best Writing</h5>
+                  </div>
+                </div>
 
-	<main class="main-warp">
-		<!-- ==== About Section Start ==== -->
-		<section class="about-section fix" id="about">
-			<div class="container pt100 pb100">
-				<div class="row">
-					<div class="col-md-7 about-text">
-						<h2>A short story about me.</h2>
-						<p>I am Abhishek Singh , a creative minded software developer focused on building innovative products.I got my first commercial project in 2014 for designing web application for a broadband company.Then,I started working individually.Further in 2015,I started working with "The Madesco Organistion" based in Sydney, Australia.Moreover, in the same year i started a small company named "Codeyo Development House" based on US which has been running successfully for 3 years but due to some commercial reasons,I left company and started working at <a href="https://thesoftwarejungle.com" target="_blank">
-							<span class="blast" aria-hidden="true" style="opacity: 1;">"The Software Jungle"</span>
-						</a></p>
-						<a href="Resume.pdf"class="site-btn mt10">Download CV</a>
-					</div>
-					<div class="col-md-5 skill">
-						<!-- Skill item -->
-						<div class="single-progress-item">
-							<p>Frontend</p>
-							<div class="progress-bar-style" data-progress="75"></div>
-						</div>
-						<!-- Skill item -->
-						<div class="single-progress-item">
-							<p>Backend</p>
-							<div class="progress-bar-style" data-progress="60"></div>
-						</div>
-						<!-- Skill item -->
-						<div class="single-progress-item">
-							<p>Apps</p>
-							<div class="progress-bar-style" data-progress="65"></div>
-						</div>
-						<!-- Skill item -->
-						<div class="single-progress-item">
-							<p>Cloud</p>
-							<div class="progress-bar-style" data-progress="80"></div>
-						</div>
-						<!-- Skill item -->
-						<div class="single-progress-item">
-							<p>Wordpress/E-commerce</p>
-							<div class="progress-bar-style" data-progress="70"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- ==== About Section End ==== -->
+                <!-- Portfolio Content -->
+                <div class="portfolio-content">
+                              
+                  <!-- Portfolio filter -->
+                  <ul id="portfolio_filters" class="portfolio-filters">
+                    <li class="active">
+                      <a class="filter btn btn-sm btn-link active" data-group="all">All</a>
+                    </li>
+                    <li>
+                      <a class="filter btn btn-sm btn-link" data-group="media">Tech</a>
+                    </li>
+                    <li>
+                      <a class="filter btn btn-sm btn-link" data-group="illustration">Project Management</a>
+                    </li>
+                    <li>
+                      <a class="filter btn btn-sm btn-link" data-group="video">Cloud</a>
+                    </li>
+                  </ul>
+                  <!-- End of Portfolio filter -->
 
+                  <!-- Portfolio Grid -->
+                  <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
 
-		<!-- ==== About Section Start ==== -->
-		<section class="service-section fix" id="service">
-			<div class="container pt100 pb100">
-				<div class="stitle mb70">
-					<h2>What I Offer!</h2>
-				</div>
-				<div class="row">
-					<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
-						<div class="service-item">
-							<div class="serv-icon">
-								<i class="fa fa-desktop"></i>
-							</div>
-							<div class="serv-content">
-								<h4>UI-UX Design</h4>
-								<p>Creative UI-UX Design with Modern Technology</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
-						<div class="service-item">
-							<div class="serv-icon">
-								<i class="fa fa-mobile"></i>
-							</div>
-							<div class="serv-content">
-								<h4>Mobile Apps</h4>
-								<p>Native and Hybrid Apps using modern frameworks</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-						<div class="service-item">
-							<div class="serv-icon">
-								<i class="fa fa-codepen"></i>
-							</div>
-							<div class="serv-content">
-								<h4>Development</h4>
-								<p>Creative and Robusted Development</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
-						<div class="service-item">
-							<div class="serv-icon">
-								<i class="fa fa-life-ring"></i>
-							</div>
-							<div class="serv-content">
-								<h4>Support</h4>
-								<p>Always be there for support</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- ==== About Section End ==== -->
+                    <!-- Portfolio Item 1 -->
+                    <figure class="item" data-groups='["all", "media"]'>
+                      <a class="ajax-page-load" href="portfolio-1.html">
+                        <img src="images/portfolio/1.jpg" alt="">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+                          <small>Media</small>
+                          <i class="pe-7s-icon pe-7s-display2"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 1 -->
 
+                    <!-- Portfolio Item 2 -->
+                    <figure class="item" data-groups='["all", "video"]'>
+                      <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Praesent Dolor Ex" class="lightbox mfp-iframe">
+                        <img src="images/portfolio/2.jpg" alt="">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+                          <small>Video</small>
+                          <i class="pe-7s-icon pe-7s-video"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 2 -->
 
-		<!-- ==== Portfolio Section Start ==== -->
-		<section class="portfolio-section fix" id="portfolio">
-			<div class="container pt100 pb100">
-				<div class="stitle mb40">
-					<h2>Latest Works</h2>
-				</div>
+                    <!-- Portfolio Item 3 -->
+                    <figure class="item" data-groups='["all","illustration"]'>
+                      <a href="images/portfolio/full/3.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                        <img src="images/portfolio/3.jpg" alt="">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+                          <small>Illustration</small>
+                          <i class="pe-7s-icon pe-7s-photo"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 3 -->
 
-				<ul class="portfolio-filter mb40">
-					<li class="filter" data-filter="*">ALL</li>
-				</ul>
-				<div class="row isotope_items">
-					<!-- Work item -->	
-					<div class="col-md-4 col-sm-6 col-xs-12 ill">
-						<a class="work-item " href="img/works/1.jpg">
-							<img src="img/works/1.jpg" alt="">
-							<div class="work-inner">
-								<div class="work-info">
-									<h2>The Software Jungle</h2>
-									<h3>My own Startup</h3>
-								</div>	
-							</div>
-						</a>
-					</div>
-					<!-- Work item -->	
-					<div class="col-md-4 col-sm-6 col-xs-12 brand">
-						<a class="work-item" href="img/works/2.png">
-							<img src="img/works/2.png" alt="">
-							<div class="work-inner">
-								<div class="work-info">
-									<h2>Myindiclick</h2>
-									<h3>Photography</h3>
-								</div>	
-							</div>
-						</a>
-					</div>
-					<!-- Work item -->	
-					<div class="col-md-4 col-sm-6 col-xs-12 fs">
-						<a class="work-item" href="img/works/3.png">
-							<img src="img/works/3.png" alt="">
-							<div class="work-inner">
-								<div class="work-info">
-									<h2>Project Title</h2>
-									<h3>Mp3 Search Engine</h3>
-								</div>	
-							</div>
-						</a>
-					</div>
-					<!-- Work item -->	
-					<div class="col-md-4 col-sm-6 col-xs-12 brand">
-						<a class="work-item" href="img/works/4.png">
-							<img src="img/works/4.png" alt="">
-							<div class="work-inner">
-								<div class="work-info">
-									<h2>Project Title</h2>
-									<h3>Prorider</h3>
-								</div>	
-							</div>
-						</a>
-					</div>
-					<!-- Work item -->	
-					<div class="col-md-4 col-sm-6 col-xs-12 fs">
-						<a class="work-item" href="img/works/5.png">
-							<img src="img/works/5.png" alt="">
-							<div class="work-inner">
-								<div class="work-info">
-									<h2>Project Title</h2>
-									<h3>HJH Maimunah</h3>
-								</div>	
-							</div>
-						</a>
-					</div>
-					<!-- Work item -->	
-					<div class="col-md-4 col-sm-6 col-xs-12 ill">
-						<a class="work-item" href="img/works/6.png">
-							<img src="img/works/6.png" alt="">
-							<div class="work-inner">
-								<div class="work-info">
-									<h2>Project Title</h2>
-									<h3>Blanket Homes</h3>
-								</div>	
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- ==== Portfolio Section End ==== -->
+                    <!-- Portfolio Item 4 -->
+                    <figure class="item" data-groups='["all", "media"]'>
+                      <a class="ajax-page-load" href="portfolio-2.html">
+                        <img src="images/portfolio/4.jpg" alt="">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+                          <small>Media</small>
+                          <i class="pe-7s-icon pe-7s-display2"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 4 -->
 
+                    <!-- Portfolio Item 5 -->
+                    <figure class="item" data-groups='["all", "illustration"]'>
+                      <a href="images/portfolio/full/5.jpg" class="lightbox" title="Aliquam Condimentum Magna Rhoncus">
+                        <img src="images/portfolio/5.jpg" alt="">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+                          <small>Illustration</small>
+                          <i class="pe-7s-icon pe-7s-photo"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 5 -->
 
-		<section class="promotion-section">
-			<div class="promotion-bg"></div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 promotion">
-						<h2>Let's do some cool project together.</h2>
-						<a href="#" class="site-btn btn-light mt25 wow fadeInUp" data-wow-delay="0.2s">HIRE NOW !</a>
-					</div>
-				</div>
-			</div>
-		</section>
+                    <!-- Portfolio Item 6 -->
+                    <figure class="item" data-groups='["all", "media"]'>
+                      <a class="ajax-page-load" href="portfolio-3.html">
+                        <img src="images/portfolio/6.jpg" alt="">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+                          <small>Media</small>
+                          <i class="pe-7s-icon pe-7s-display2"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 6 -->
 
+                    <!-- Portfolio Item 7 -->
+                    <figure class="item" data-groups='["all", "video"]'>
+                      <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Nulla Facilisi" class="lightbox mfp-iframe">
+                        <img src="images/portfolio/7.jpg" alt="">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+                          <small>Video</small>
+                          <i class="pe-7s-icon pe-7s-video"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 7 -->
 
-		<!-- ==== Contact Section Start ==== -->
-		<section class="contact-section fix" id="contact">
-			<div class="container pt100 pb100">
-				<div class="stitle mb70">
-					<h2>Get in touch</h2>
-				</div>
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
-						<div class="row">
-							<!-- Contact Info -->
-							<div class="col-md-4 col-sm-4 contact-info wow fadeInUp" data-wow-delay="0.2s">
-								<i class="fa fa-phone"></i>
-								<p>+91 94 2579 5216</p>
-							</div>
-							<!-- Contact Info -->
-							<div class="col-md-4 col-sm-4 contact-info wow fadeInUp" data-wow-delay="0.4s">
-								<i class="fa fa-map-marker"></i>
-								<p>Jabalpur</p>
-							</div>
-							<!-- Contact Info -->
-							<div class="col-md-4 col-sm-4 contact-info wow fadeInUp" data-wow-delay="0.6s">
-								<i class="fa fa-send"></i>
-								<p>hello@thesoftwarejungle.com<br>theabhisheksingh@outlook.com</p>
-							</div>
-						</div>
-						<!-- Contact Form -->
-						<form action="http://thesoftwarejungle.com/mail.php" class="cont-form" id="contact-form" method="POST" >
-							<div class="row">
-								<div class="col-sm-6">
-									<input type="text" name="name" id="name" required placeholder="Your Name*">
-								</div>
-								<div class="col-sm-6">
-									<input type="email" name="email" id="email" required placeholder="Your Email*">
-								</div>
-								<div class="col-sm-12">
-									<textarea id="massage" name="massage" required placeholder="Your Massage*"></textarea>
-								</div>
-								<div class="text-center">
-									<button type="submit" class="site-btn" data-wow-delay="0.2s" id="send-form">Send Massege</button>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- ==== Contact Section End ==== -->
-	</main>
+                    <!-- Portfolio Item 8 -->
+                    <figure class="item" data-groups='["all",  "media"]'>
+                      <a class="ajax-page-load" href="portfolio-4.html">
+                        <img src="images/portfolio/8.jpg" alt="">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+                          <small>Media</small>
+                          <i class="pe-7s-icon pe-7s-display2"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 8 -->
 
+                    <!-- Portfolio Item 9 -->
+                    <figure class="item" data-groups='["all","illustration"]'>
+                      <a href="images/portfolio/full/9.jpg" class="lightbox" title="Mauris Neque Dolor">
+                        <img src="images/portfolio/9.jpg" alt="">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+                          <small>Illustration</small>
+                          <i class="pe-7s-icon pe-7s-photo"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 9 -->
 
-	<!-- ==== Footer Section Start ==== -->
-	<footer class="footer-section fix">
-		<div class="container">
-			<!-- social media -->
-			<div class="social-links mt25">
-				<a href="#" class="facebook"><i class="fa fa-facebook-f"></i></a>
-				<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-				<a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-				<a href="#" class="Linkedin"><i class="fa fa-linkedin"></i></a>
-			</div>
-			<p>Copyright © 2018, All rights Reserved.</p>
-			<p>Created by TheSoftwareJungle</p>
-		</div>
-	</footer>
-	<!-- ==== Footer Section End ==== -->
+                    <!-- Portfolio Item 10 -->
+                    <figure class="item" data-groups='["all", "video"]'>
+                      <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Donec Lectus Arcu" class="lightbox mfp-iframe">
+                        <img src="images/portfolio/10.jpg" alt="">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+                          <small>Video</small>
+                          <i class="pe-7s-icon pe-7s-video"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 10 -->
 
+                    <!-- Portfolio Item 11 -->
+                    <figure class="item" data-groups='["all","illustration"]'>
+                      <a href="images/portfolio/full/11.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                        <img src="images/portfolio/11.jpg" alt="">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+                          <small>Illustration</small>
+                          <i class="pe-7s-icon pe-7s-photo"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 11 -->
 
-	<!--====== Javascripts & Jquery ======-->	
-	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="js/plugin.js"></script>
-	<script src="js/init-round.js"></script>
-	<script src="js/main.js"></script>
-	
+                    <!-- Portfolio Item 12 -->
+                    <figure class="item" data-groups='["all","media"]'>
+                      <a class="ajax-page-load" href="portfolio-5.html">
+                        <img src="images/portfolio/12.jpg" alt="">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+                          <small>Media</small>
+                          <i class="pe-7s-icon pe-7s-display2"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 12 -->
+                  </div>
+                  <!-- /Portfolio Grid -->
 
+                </div>
+                <!-- /Portfolio Content -->
+              </div>
+            </section>
+            <!-- /Portfolio Subpage -->
 
+            <!-- Contact Subpage -->
+            <section class="pt-page pt-page-5" data-id="contact">
+              <div class="border-block-top-110"></div>
+              <div class="section-inner">
+                <div class="section-title-block">
+                  <div class="section-title-wrapper">
+                    <h2 class="section-title">Contact</h2>
+                    <h5 class="section-description">Get in Touch</h5>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-6 col-md-6 subpage-block">
+                    <div class="block-title">
+                      <h3>Get in Touch</h3>
+                    </div>
+                    <p>Words are nothing, only an action can prove that people matter to you. </p>
+                    <div class="contact-info-block">
+                      <div class="ci-icon">
+                        <i class="pe-7s-icon pe-7s-map-marker"></i>
+                      </div>
+                      <div class="ci-text">
+                        <h5>Jabalpur, India</h5>
+                      </div>
+                    </div>
+                    <div class="contact-info-block">
+                      <div class="ci-icon">
+                        <i class="pe-7s-icon pe-7s-mail"></i>
+                      </div>
+                      <div class="ci-text">
+                        <h5><a href="theabhisheksingh@outlook.com" class="__cf_email__" data-cfemail="theabhisheksingh@outlook.com">theabhisheksingh@outlook.com</a></h5>
+                      </div>
+                    </div>
+                    <div class="contact-info-block">
+                      <div class="ci-icon">
+                        <i class="pe-7s-icon pe-7s-call"></i>
+                      </div>
+                      <div class="ci-text">
+                        <h5>+91 9425 79 5216</h5>
+                      </div>
+                    </div>
+                    <div class="contact-info-block">
+                      <div class="ci-icon">
+                        <i class="pe-7s-icon pe-7s-check"></i>
+                      </div>
+                      <div class="ci-text">
+                        <h5>Freelance Available</h5>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-6 subpage-block">
+                    <div class="block-title">
+                      <h3>Contact Form</h3>
+                    </div>
+                    <form id="contact-form" method="post" action="#">
+
+                      <div class="messages"></div>
+
+                      <div class="controls">
+                        <div class="form-group">
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name" required="required" data-error="Name is required.">
+                            <div class="form-control-border"></div>
+                            <i class="form-control-icon pe-7s-user"></i>
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
+                            <div class="form-control-border"></div>
+                            <i class="form-control-icon pe-7s-mail"></i>
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for Me" rows="4" required="required" data-error="Please, leave me a message."></textarea>
+                            <div class="form-control-border"></div>
+                            <i class="form-control-icon pe-7s-comment"></i>
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                        <input type="submit" class="button btn-send" value="Send message">
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End Contact Subpage -->
+
+          </div>
+        </div>
+        <!-- /Page changer wrapper -->
+      </div>
+      <!-- /Main Content -->
+    </div>
+
+    <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/bootstrap.min.js"></script>
+    <script src="js/pages-switcher.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/jquery.shuffle.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/tilt.jquery.min.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Demo Color changer Script -->
+    <script src="preview/lmpixels-demo-panel.js"></script>
+    <!-- /Demo Color changer Script -->
+  <script defer src="../../../../static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"5dcfd9dd4a6bdb28","r":1,"version":"2020.9.1","si":10}'></script>
 </body>
 </html>
