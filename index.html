@@ -749,6 +749,40 @@
       </div>
       <!-- /Main Content -->
     </div>
+    <!-- Demo Color changer -->
+    <a id="lm_demo_panel_switcher" class="lm-demo-panel-switcher right"><i class="fa fa-gear"></i></a>
+    <div id="lm_demo_panel" class="lm-demo-panel right panel-color-red active">
+      <div class="demo-panel-title">Template Style</div>
+      <div id="t_style" class="demo-panel-options">
+        <a class="current-t-style t-style-switcher" data-id="template-style-light"><div class="preview w-border t-style t-style-light">Light</div></a>
+        <a class="t-style-switcher" data-id="template-style-dark"><div class="preview t-style t-style-dark">Dark</div></a>
+      </div>
+
+      <div class="demo-panel-title">Main Color</div>
+      <div id="main_color" class="demo-panel-options">
+        <a data-id="red" class="current-main-color"><div class="preview color-1">&nbsp;</div></a>
+        <a data-id="blue"><div class="preview color-2">&nbsp;</div></a>
+        <a data-id="green"><div class="preview color-3">&nbsp;</div></a>
+        <a data-id="orange"><div class="preview color-4">&nbsp;</div></a>
+        <a data-id="yellow"><div class="preview color-5">&nbsp;</div></a>
+        <a data-id="violet"><div class="preview color-6">&nbsp;</div></a>
+      </div>
+
+      <div class="demo-panel-title">Nav Color</div>
+      <div id="header_color" class="demo-panel-options">
+        <a class="current-h-color inverse h-color-switcher" data-id="header-color-light"><div class="preview h-color h-color-1 w-border">&nbsp;</div></a>
+        <a class="h-color-switcher" data-id="header-color-main"><div class="preview h-color h-color-2">&nbsp;</div></a>
+        <a class="h-color-switcher" data-id="header-color-dark"><div class="preview h-color h-color-3">&nbsp;</div></a>
+      </div>
+
+      <div class="demo-panel-title mobile-hidden">Nav Position</div>
+      <div id="header_position" class="demo-panel-options mobile-hidden">
+        <a class="current-layout layout-switcher" data-id="layout-menu-left"><div class="preview layout left">Left</div></a>
+        <a class="layout-switcher" data-id="layout-menu-top"><div class="preview layout top">Top</div></a>
+        <a class="layout-switcher" data-id="layout-menu-bottom"><div class="preview layout bottom">Bottom</div></a>
+      </div>
+    </div>
+    <!-- /Demo Color changer -->
     <script src="js/side-nav.js"></script>
     <script src="js/pages-switcher.js"></script>
     <script src="js/imagesloaded.pkgd.min.js"></script>
